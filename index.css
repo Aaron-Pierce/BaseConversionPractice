@@ -1,0 +1,8 @@
+#answer{
+    background-color: black;
+    cursor: pointer;
+}
+
+#answer:hover{
+    background-color: unset;
+}
