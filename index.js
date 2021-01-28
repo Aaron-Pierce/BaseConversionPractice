@@ -37,4 +37,7 @@ document.body.innerHTML = `
     <h1>(${startString})<sub>${bases[pick[0]]}</sub></h1>
     <h1>to base ${bases[pick[1]]}</h1>
     <h2>Answer (hover): <span  id="answer">(${answer})<sub>${bases[pick[1]]}</sub></span></h2>
+    <br>
+    <br>
+    <button onclick="window.location.reload()">Generate New Problem</button>
 `
